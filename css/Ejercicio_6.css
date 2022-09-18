@@ -1,0 +1,70 @@
+body{
+	background-image: url("../img/fondo2.jpg");
+	background-size: cover;
+}
+.texto{
+    margin: 2em;
+}
+.contenedor {
+	margin: 2em;
+}
+.texto2{
+	margin: 2em;
+}
+.formulario__input-error {
+	font-size: 1em;
+	color: #ec1d31;
+	margin-bottom: 0;
+	display: none;
+}	
+.formulario__input-error-activo {
+	display: block;
+}
+.formulario__validacion-estado {
+	position: absolute;
+	right: 1em;
+	bottom: 1em;
+	z-index: 100;
+	font-size: 1em;
+	opacity: 0;
+}
+.formulario__mensaje {
+	font-size: 1em;
+	background: #ec1d31;
+	display: none;
+}
+.formulario__mensaje-activo {
+	display: block;
+}
+.formulario__mensaje p {
+	margin: 0;
+}
+.formulario__mensaje-exito {
+	font-size: 1em;
+	color: #1bb66e;
+	display: none;
+}
+.formulario__mensaje-exito-activo {
+	display: block;
+}	
+.formulario__validacion-estado {
+	color: #1bb66e;
+	opacity: 1;
+}
+.formulario__grupo{
+	margin: 2em;
+}
+.formulario__grupo-correcto .formulario__validacion-estado {
+	color: #1bb66e;
+	opacity: 1;
+}
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+	color: #ec1d31;
+	opacity: 1;
+}
+.formulario__grupo-correcto .formulario__input {
+	background-color: #1bb66e;
+}
+.formulario__grupo-incorrecto .formulario__input {
+	background-color: #ec1d31;
+}

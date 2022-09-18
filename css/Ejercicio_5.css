@@ -1,0 +1,17 @@
+body{
+    background-image: url("../img/fondo2.jpg");
+    background-size: cover;
+}
+.texto{
+    margin: 2em;
+}
+.cards{
+    margin: 2em;
+}
+.boton{
+    margin: 2em;
+}
+img{
+    width: 50px;
+    height: 500px;
+}

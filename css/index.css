@@ -1,0 +1,13 @@
+body{
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+}
+.titulo{
+    margin: 3em;
+}
+.img{
+    margin: 3em;
+}
+.botones{
+    margin: 3em;
+}
